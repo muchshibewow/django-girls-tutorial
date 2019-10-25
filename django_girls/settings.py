@@ -26,7 +26,7 @@ SECRET_KEY = 't_*$h047plj7d!y#6+i72ny)s@fn*t^vt@#77wddc@*%+k-@!3'
 DEBUG = True
 
 # Why do I need to add localhost separately? Need to ask.
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'boulevardofpizzadreams.pythonanywhere.com']
 
 
 # Application definition
@@ -121,3 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
